@@ -1,0 +1,65 @@
+
+.main-area{
+    /* background: 
+    /* top, transparent red, faked with gradient */ 
+    /* linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ), */
+    /* bottom, image */
+    /* url(./planner.png);
+
+    opacity:0.1; */ 
+line-height: 700px;
+    text-align:center;
+}
+
+
+.main-area a{ 
+    display: inline-block;
+ 
+    vertical-align: middle;
+    
+    line-height: normal;
+    opacity:1!important;
+    
+}
+
+.orgBtn1 {
+    background-color: #FF7429;
+    color: white !important;
+    border-radius: 20px;
+    border: 1px solid #FF7429
+
+}
+
+.currentg{
+    color: grey;
+}
+
+.orgBtn1:hover {
+    background-color: white;
+    color: #FF7429 !important;
+    border: 1px solid #FF7429
+}
+
+.orgBtn2 {
+    background-color: white;
+    color: #FF7429;
+    border-radius: 20px;
+    border: 1px solid #FF7429
+}
+
+.orgBtn2:hover {
+    background-color: #FF7429;
+    color: white;
+    border: 1px solid #FF7429
+}
+
+.pop-up {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 0 auto;
+}

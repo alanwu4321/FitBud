@@ -1,0 +1,80 @@
+.navbar {
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
+.feed-btn {
+    font-size: 30px;
+    color: #FF7429;
+}
+
+.feed-btn-cont {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feed-btn-msg {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+    border: 2px solid #FF7429;
+}
+
+.msg1 {
+    background-image: url('../../assets/pp1.jpg');
+    background-size: cover;
+}
+
+.msg2 {
+    background-image: url('../../assets/pp2.jpg');
+    background-size: cover;
+}
+
+.msg3 {
+    background-image: url('../../assets/pp3.jpg');
+    background-size: cover;
+}
+
+.btn-gym-info {
+    cursor: pointer;
+}
+
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .grow:hover,
+  .grow:focus {
+    transform: scale(1.05);
+  }
+  
+  .grow:active {
+    transform: scale(.90);
+  }
+  
+  .grow-large {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-in-out;
+  }
+  
+  .grow-large:hover,
+  .grow-large:focus {
+    transform: scale(1.2);
+    cursor:pointer;
+  }
+  
+  .grow-large:active {
+    transform: scale(.95);
+    cursor:pointer;
+  }
